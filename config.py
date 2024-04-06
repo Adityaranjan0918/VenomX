@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-# Get this value from @Hot_Girl_Robot on Telegram by /id
+# Get this value from any bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5822700831"))
 
 ## Fill these variables if you're deploying on heroku.
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/adityaranjan0918/VenomMusic",
+    "https://github.com/adityaranjan0918/VenomX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VenomOwners")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Venom_Chatz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/theind_coder")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_ind_coders")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "false"))
