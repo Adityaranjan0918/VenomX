@@ -1,5 +1,5 @@
 import asyncio
-from DEVIL import app
+from VenomX import app
 from pyrogram import filters
 
 
